@@ -1,0 +1,8 @@
+
+{
+  "name": "Attendex",
+  "description": "Convert handwritten or printed attendance register photos into professional Excel spreadsheets instantly using Gemini AI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
