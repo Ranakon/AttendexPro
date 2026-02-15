@@ -1,4 +1,4 @@
-const Teacher = require("../models/teacher");
+const Teacher = require("../models/Teacher");
 const Class = require("../models/Class");
 const Attendance = require("../models/Attendance");
 const bcrypt = require("bcryptjs");
