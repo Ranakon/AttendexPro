@@ -15,7 +15,7 @@ const ClassPage: React.FC = () => {
     const token = localStorage.getItem("token");
 
     const res = await fetch(
-      `https://localhost:5000/api/attendance/view/${id}`,
+      `https://attendexpro.onrender.com/api/attendance/view/${id}`,
       {
         headers: {
           Authorization: `Bearer ${token}`,
@@ -98,7 +98,7 @@ const ClassPage: React.FC = () => {
               const token = localStorage.getItem("token");
 
               const res = await fetch(
-                `https://localhost:5000/api/attendance/download/${id}`,
+                `https://attendexpro.onrender.com/api/attendance/download/${id}`,
                 {
                   headers: {
                     Authorization: `Bearer ${token}`,
