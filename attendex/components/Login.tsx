@@ -35,8 +35,8 @@ const Login: React.FC<Props> = ({ onLogin }) => {
       setError("");
 
       const endpoint = isSignup
-        ? "http://attendexpro.onrender.com/api/auth/signup"
-        : "http://attendexpro.onrender.com/api/auth/login";
+        ? "https://attendexpro.onrender.com/api/auth/signup"
+        : "https://attendexpro.onrender.com/api/auth/login";
 
       const body = isSignup
         ? { name, email, password }

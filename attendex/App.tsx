@@ -235,7 +235,7 @@ const App: React.FC = () => {
 
             const token = localStorage.getItem("token");
 
-            await fetch("http://attendexpro.onrender.com/api/auth/delete", {
+            await fetch("https://attendexpro.onrender.com/api/auth/delete", {
               method: "DELETE",
               headers: {
                 Authorization: `Bearer ${token}`,
@@ -289,7 +289,7 @@ const App: React.FC = () => {
 
           const token = localStorage.getItem("token");
 
-          await fetch("http://attendexpro.onrender.com/api/auth/delete", {
+          await fetch("https://attendexpro.onrender.com/api/auth/delete", {
             method: "DELETE",
             headers: {
               Authorization: `Bearer ${token}`,

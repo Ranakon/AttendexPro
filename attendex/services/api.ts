@@ -1,4 +1,4 @@
-const BASE_URL = "http://attendexpro.onrender.com";
+const BASE_URL = "https://attendexpro.onrender.com";
 
 export const uploadAttendance = async (
   token: string,
