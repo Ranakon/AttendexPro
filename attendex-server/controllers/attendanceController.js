@@ -17,6 +17,10 @@ exports.uploadAttendance = async (req, res) => {
     const extractedData = await extractAttendanceFromImage(base64Image);
     console.log("Gemini Extracted Data:", JSON.stringify(extractedData, null, 2));
 
+    if (!extractedData) {
+      return res.status(400).json({ message: "Failed to extract data from image" });
+    }
+
     const { unique_dates, attendance_grid } = extractedData;
 
 if (!attendance_grid || !unique_dates) {

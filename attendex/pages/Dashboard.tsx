@@ -18,7 +18,7 @@ const Dashboard: React.FC = () => {
     try {
       const token = localStorage.getItem("token");
 
-      const res = await fetch("https://attendexpro.onrender.com/api/classes", {
+      const res = await fetch("https://localhost:5000/api/classes", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -42,7 +42,7 @@ const Dashboard: React.FC = () => {
 
     const token = localStorage.getItem("token");
 
-    await fetch("https://attendexpro.onrender.com/api/classes", {
+    await fetch("https://localhost:5000/api/classes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -78,7 +78,7 @@ const Dashboard: React.FC = () => {
 
                 const token = localStorage.getItem("token");
 
-                await fetch(`https://attendexpro.onrender.com/api/classes/${cls._id}`, {
+                await fetch(`https://localhost:5000/api/classes/${cls._id}`, {
                   method: "DELETE",
                   headers: {
                     Authorization: `Bearer ${token}`,
