@@ -115,7 +115,7 @@ Object.values(grouped).forEach(student => {
     }
   });
 
-  const totalClasses = allDates.length;
+  const totalClasses = Math.max(0,allDates.length-3);
   const percentage =
     totalClasses === 0
       ? 0
