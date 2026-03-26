@@ -3,10 +3,6 @@
 </div>
 # 📊 AttendexPro — Intelligent Attendance Management System
 
-<div align="center">
-  <img width="345" height="781" alt="App Banner" src="https://raw.githubusercontent.com/Ranakon/Ranakon/refs/heads/main/Screenshot%202026-02-18%20222439.png" />
-</div>
-
 🌐 **Live Demo:** https://attendexpro.vercel.app/
 
 ---
