@@ -1,104 +1,166 @@
 <div align="center">
-<img width="345" height="781" alt="GHBanner" src="https://raw.githubusercontent.com/Ranakon/Ranakon/refs/heads/main/Screenshot%202026-02-18%20222439.png" />
+<img width="1200" height="475" alt="GHBanner" src="https://raw.githubusercontent.com/Ranakon/Ranakon/refs/heads/main/Screenshot%202026-02-18%20222439.png" />
 </div>
-🚀 AttendexPro
-Smart Attendance Management with AI
+# 📊 AttendexPro — Intelligent Attendance Management System
 
-AttendexPro is a full-stack web application designed to simplify and automate attendance tracking for educators. It combines modern UI, powerful backend APIs, and AI capabilities to make attendance handling fast, accurate, and effortless.
+<div align="center">
+  <img width="345" height="781" alt="App Banner" src="https://raw.githubusercontent.com/Ranakon/Ranakon/refs/heads/main/Screenshot%202026-02-18%20222439.png" />
+</div>
 
-🌐 Live Demo: https://attendexpro.vercel.app/
+🌐 **Live Demo:** https://attendexpro.vercel.app/
 
-✨ Features
-📊 Automated Attendance Processing
-Upload files and extract attendance data instantly
-🤖 AI-Powered Insights
-Smart parsing using Gemini AI integration
-🔐 Authentication System
-Secure login for teachers
-🏫 Class Management
-Create and manage multiple classes
-📅 Attendance Records
-Track, store, and retrieve attendance easily
-📤 Export Functionality
-Download attendance reports in Excel format
-🛠️ Tech Stack
-Frontend
-⚛️ React + TypeScript
-⚡ Vite
-🎨 Modern UI Components
-Backend
-🟢 Node.js
-🚂 Express.js
-🍃 MongoDB
-AI Integration
-🤖 Gemini API (for intelligent data processing)
-📂 Project Structure
+---
+
+## 🧠 Overview
+
+**AttendexPro** is a full-stack attendance management system designed for teachers and institutions to efficiently manage classes, track attendance, and analyze records — all in a modern, digital workflow.
+
+It replaces traditional registers with a **smart, scalable, and intuitive system**, enhanced with AI-powered capabilities.
+
+---
+
+## ✨ Key Features
+
+* 🧑‍🏫 **Teacher Authentication**
+  Secure login system for managing personal classes and data.
+
+* 🏫 **Class Management**
+  Create and manage multiple classes with ease.
+
+* 📝 **Attendance Tracking**
+  Mark and update attendance records in real-time.
+
+* 📊 **Dashboard Overview**
+  View structured data and manage everything from one place.
+
+* ⚡ **Fast & Responsive UI**
+  Smooth animations and modern user experience.
+
+* 🤖 **AI Integration (Gemini API)**
+  Smart assistance for enhanced functionality and future extensibility.
+
+---
+
+## 🏗️ Tech Stack
+
+### Frontend
+
+* React (TypeScript)
+* React Router
+* Tailwind CSS (modern UI styling)
+
+### Backend
+
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+
+### Additional
+
+* Gemini API (AI services)
+
+---
+
+## 📁 Project Structure
+
+```
 AttendexPro/
 │
-├── attendex/               # Frontend (React + Vite)
+├── attendex/              # Frontend (React + TS)
 │   ├── components/
 │   ├── pages/
-│   ├── services/
-│   └── utils/
+│   └── App.tsx
 │
-├── attendex-server/        # Backend (Node + Express)
-│   ├── controllers/
+├── attendex-server/       # Backend (Node + Express)
 │   ├── models/
+│   ├── controllers/
 │   ├── routes/
 │   ├── middleware/
-│   └── config/
-│
-└── README.md
-⚙️ Installation & Setup
-1️⃣ Clone the repository
+│   └── services/
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone Repository
+
+```bash
 git clone https://github.com/your-username/AttendexPro.git
 cd AttendexPro
-2️⃣ Setup Backend
+```
+
+---
+
+### 2️⃣ Setup Backend
+
+```bash
 cd attendex-server
 npm install
+```
 
-Create a .env file:
+Create `.env` file:
 
-MONGO_URI=your_mongodb_connection
-JWT_SECRET=your_secret_key
-GEMINI_API_KEY=your_api_key
+```
+MONGO_URI=your_mongodb_uri
+```
 
 Run server:
 
+```bash
 npm start
-3️⃣ Setup Frontend
-cd ../attendex
+```
+
+---
+
+### 3️⃣ Setup Frontend
+
+```bash
+cd attendex
 npm install
 npm run dev
-🚀 Usage
-Login as a teacher
-Create or select a class
-Upload attendance file
-Let AI process the data
-View results instantly
-Export attendance if needed
+```
 
+---
 
-🔒 Environment Variables
-Variable	Description
-MONGO_URI	MongoDB connection string
-JWT_SECRET	Authentication secret
-GEMINI_API_KEY	AI API key
-🤝 Contributing
+## 🎯 How It Works
 
-Contributions are welcome!
+1. Teacher logs in securely
+2. Creates and manages classes
+3. Marks attendance for students
+4. Data is stored in MongoDB
+5. Dashboard displays structured records
 
-Fork the repo
-Create a new branch
-Make your changes
-Submit a pull request
-💡 Future Improvements
-📱 Mobile responsiveness improvements
-📊 Advanced analytics dashboard
-🔔 Notifications system
-👨‍🎓 Student login portal
+---
 
+## 💡 Future Improvements
 
-💙 A Note
+* 📱 Mobile optimization
+* 📈 Advanced analytics & reports
+* 🔐 JWT-based authentication
+* 🧠 AI-based attendance insights
+* ☁️ Cloud deployment scaling
 
-Built with passion to make academic workflows smarter and faster.
+---
+
+## 🌟 Why This Project Matters
+
+AttendexPro transforms traditional attendance systems into a **digital, efficient, and intelligent solution**.
+It demonstrates real-world problem solving using a scalable MERN architecture with modern UI and AI integration.
+
+---
+
+## 👨‍💻 Author
+
+**Rounak Modi**
+Aspiring Software Developer | MERN Stack Enthusiast
+
+---
+
+##  Final Note
+
+From paper registers to intelligent systems…
+this project reflects how simple problems can be solved with powerful technology.
+
+> *“Efficiency isn’t just speed… it’s clarity, structure, and intelligence.”*
