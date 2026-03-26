@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://raw.githubusercontent.com/Ranakon/Ranakon/refs/heads/main/Screenshot%202026-02-18%20222439.png" />
+<img width="1200" height="475" alt="GHBanner" src="https://raw.githubusercontent.com/Ranakon/Ranakon/refs/heads/main/AttendexPro.png" />
 </div>
 # 📊 AttendexPro — Intelligent Attendance Management System
 
